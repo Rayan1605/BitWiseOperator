@@ -5,6 +5,8 @@ public class BitDemo {
         int b = 13;
         int c = 0;
 
+        //Compares each bit of a and b. If both bits are 1, the result is 1; otherwise, it's 0.
+        //Result: 111100 AND 001101 = 001100 (binary), which is 12 in decimal
         c = a & b;
         System.out.println("a & b = " + c);
 
