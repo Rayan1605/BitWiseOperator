@@ -37,11 +37,6 @@ public class BitDemo {
         c = a >> 2;
         System.out.println("a & b = " + c);
 
-
-
-
-
-
     }
 }
 
