@@ -10,7 +10,10 @@ public class BitDemo {
 // second operand. If the bits are different, the corresponding result bit is set to 1.
 // If the bits are the same, the result bit is set to 0.
 
-// & Bitwise AND
+// & Bitwise AND // Compares each bit of its first operand to the corresponding
+// bit of its second operand. If both bits are 1,
+// the corresponding result bit is set to 1. Otherwise, it is set to 0.
+
 /// Unsigned right shift
 // Signed right shift
 // Signed left shift
