@@ -10,6 +10,8 @@ public class BitDemo {
         c = a & b;
         System.out.println("a & b = " + c);
 
+        //Compares each bit of a and b. If either bit is 1, the result is 1; otherwise, it's 0.
+        //Result: 111100 OR 001101 = 111101 (binary), which is 61 in decimal
         c = a | b;
         System.out.println("a & b = " + c);
 
