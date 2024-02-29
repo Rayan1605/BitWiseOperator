@@ -17,6 +17,8 @@ public class BitDemo {
 /// Unsigned right shift // Shifts the bits of the first operand to the right by the number of
 // positions specified by the second operand.
 
-// Signed right shift
-// Signed left shift
+// Signed right shift / Shifts the bits of the first operand to the right by the number of
+// positions specified by the second operand
+// Signed left shift / Shifts the bits of the first operand to the left by the number of
+// positions specified by the second operand. Zeros are shifted in from the right.
 // ~ Unary bitwise complement // all the 0 bits become 1s, and all the 1 bits become 0s.
