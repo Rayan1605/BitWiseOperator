@@ -19,6 +19,7 @@ public class BitDemo {
         //Result: 111100 XOR 001101 = 110001 (binary), which is 49 in decimal.
         c = a ^ b;
         System.out.println("a & b = " + c);
+        //Flips every bit of a. If the bit is 1, it becomes 0; if it's 0, it becomes 1.
 
         c = ~a;
         System.out.println("a & b = " + c);
