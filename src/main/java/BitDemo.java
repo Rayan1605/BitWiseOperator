@@ -15,6 +15,8 @@ public class BitDemo {
         c = a | b;
         System.out.println("a & b = " + c);
 
+        // Compares each bit of a and b. If the bits are different, the result is 1; if they're the same, it's 0.
+        //Result: 111100 XOR 001101 = 110001 (binary), which is 49 in decimal.
         c = a ^ b;
         System.out.println("a & b = " + c);
 
