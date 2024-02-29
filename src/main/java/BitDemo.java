@@ -6,22 +6,22 @@ public class BitDemo {
         int c = 0;
 
         c = a & b;
-        System.out.printf("a & b = " + c);
+        System.out.println("a & b = " + c);
 
         c = a | b;
-        System.out.printf("a & b = " + c);
+        System.out.println("a & b = " + c);
 
         c = a ^ b;
-        System.out.printf("a & b = " + c);
+        System.out.println("a & b = " + c);
 
         c = ~a;
-        System.out.printf("a & b = " + c);
+        System.out.println("a & b = " + c);
 
         c = a << 2;
-        System.out.printf("a & b = " + c);
+        System.out.println("a & b = " + c);
 
         c = a >> 2;
-        System.out.printf("a & b = " + c);
+        System.out.println("a & b = " + c);
 
 
 
