@@ -1,4 +1,34 @@
 public class BitDemo {
+
+    public static void main(String[] args) {
+        int a = 60;
+        int b = 13;
+        int c = 0;
+
+        c = a & b;
+        System.out.printf("a & b = " + c);
+
+        c = a | b;
+        System.out.printf("a & b = " + c);
+
+        c = a ^ b;
+        System.out.printf("a & b = " + c);
+
+        c = ~a;
+        System.out.printf("a & b = " + c);
+
+        c = a << 2;
+        System.out.printf("a & b = " + c);
+
+        c = a >> 2;
+        System.out.printf("a & b = " + c);
+
+
+
+
+
+
+    }
 }
 
 //Bitwise and Bit Shift Operator
