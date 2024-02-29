@@ -30,6 +30,10 @@ public class BitDemo {
         c = a << 2;
         System.out.println("a & b = " + c);
 
+        // Shifts all bits in a to the right by 2 positions. Bits on the right end are dropped.
+        // For signed integers, the leftmost bit (which determines the sign) is replicated to
+        // fill in the left.
+        //Result: 111100 shifted right by 2 = 001111 (binary), which is 15 in decimal
         c = a >> 2;
         System.out.println("a & b = " + c);
 
