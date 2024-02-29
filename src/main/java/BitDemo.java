@@ -24,6 +24,9 @@ public class BitDemo {
         c = ~a;
         System.out.println("a & b = " + c);
 
+        //Shifts all bits in a to the left by 2 positions. Bits on the left end are dropped,
+        // and 0s are added on the right.
+        //Result: 111100 shifted left by 2 = 110000 (binary), which is 240 in decimal
         c = a << 2;
         System.out.println("a & b = " + c);
 
